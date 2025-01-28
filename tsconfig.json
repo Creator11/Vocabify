@@ -21,7 +21,8 @@
     "./src/**/*.ts",
     "./src/**/*.tsx",
     "config/globalts/global.d.ts",
-    "config/babel/babel-standalone.ts"
+    "config/babel/babel-standalone.ts",
+    "FSD/app/App.tsx"
   ],
   "exclude": ["node_modules"],
   "ts-node": {

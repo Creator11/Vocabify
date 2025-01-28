@@ -5,9 +5,10 @@ import {
   createBrowserRouter,
   createHashRouter,
 } from "react-router";
-import { NotFound, HomePage } from "@/pages";
-import App from "@/App";
-import ErrorBoundary from "@/providers/ErrorBoundary/ErrorBoundary";
+import ErrorBoundary from "../ErrorBoundary/ErrorBoundary";
+import App from "@/app/App";
+import { HomePage } from "@/pages/HomePage/HomePage";
+import { NotFound } from "@/pages/NotFound/NotFound";
 
 const AppRouter = () => {
   const router = (
