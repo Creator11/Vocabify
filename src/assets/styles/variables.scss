@@ -1,0 +1,42 @@
+$font-serif-family:
+  system-ui,
+  -apple-system,
+  blinkmacsystemfont,
+  "Segoe UI",
+  roboto,
+  "Helvetica Neue",
+  helvetica,
+  arial,
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol";
+$font-mono-family: sfmono-regular, menlo, monaco, consolas, "Liberation Mono",
+  "Courier New", monospace;
+$font-base: "OpenSans", $font-serif-family, sans-serif;
+
+/*
+* colors
+*/
+$primary: #242228;
+$white: #fff;
+
+/*
+* fonts
+*/
+
+/*
+* sizes
+*/
+
+/*
+* z-index
+*/
+
+/*
+* Breakpoints
+*/
+$media-phone: 650px;
+$media-tablet: 850px;
+$media-tablet-landscape: 960px;
+$media-desktop: 1180px;
